@@ -1,0 +1,115 @@
+/* Color theme
+#012030
+#13678A
+#45C4B0
+#9AEBA3
+#DAFDBA
+*/
+
+.tutorialpage {
+  background-color: #353950;
+  position: relative;
+}
+
+.tutorial-text {
+  margin-left: 1%;
+}
+
+.tutorial-section {
+  border: solid 1pt;
+  position: relative;
+  background-color: lightblue;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.tutorialtitle {
+  /* Titles on the catalog page */
+  padding: 0.5em;
+  background-color: #012030;
+}
+
+.tutorialsummary {
+  /* Blurbs on the catalog page */
+  padding-left: 0.75em;
+  background-color: #353950;
+}
+
+.tutorialimg {
+  margin-left: 2%;
+}
+
+.tutorialimg:hover {
+  transform: scale(1.02);
+}
+
+.imagestrip {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-color: black;
+  border-width: 10em;
+}
+
+.inline-code {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.complete-code {
+  margin-right: 2%;
+  margin-bottom: 2%;
+  box-shadow: 10px 10px 32px -4px rgba(0, 0, 0, 0.75);
+  background-color: rgb(44, 44, 44);
+}
+
+div#tutoriallist {
+  float: left;
+}
+
+li a:hover {
+  /* Links that are being hovered */
+  background-color: #9aeba3;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+img {
+  border-color: #dafdba;
+  border: solid 1pt;
+  background-size: contain;
+  position: inherit;
+  max-width: 30em;
+  min-width: 10em;
+}
+
+section {
+  padding: 0.2em;
+  color: whitesmoke;
+}
+
+header {
+  padding: 0.25em;
+  margin-bottom: 0.8em;
+}
+
+footer {
+  color: whitesmoke;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+}
+
+figure {
+  margin: 0.25em;
+}
+
+figcaption {
+  font-weight: lighter;
+  font-style: italic;
+}
