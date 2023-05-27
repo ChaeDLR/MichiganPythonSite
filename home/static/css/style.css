@@ -1,0 +1,53 @@
+
+:root {
+  --Poseidon-1: rgba(36, 54, 89, 1);
+  --Poseidon-2: rgba(3, 165, 149, 1);
+  --Poseidon-3: rgba(3, 191, 156, 1);
+  --Poseidon-4: rgba(242, 115, 87, 1);
+  --Poseidon-5: rgba(191, 101, 93, 1);
+}
+
+.main-top {
+  color: var(--Poseidon-5);
+  margin-bottom: -3px;
+  z-index: 1;
+  position: relative;
+}
+
+.navibar {
+  background-color: var(--Poseidon-1);
+  border-color: var(--Poseidon-4);
+  border-radius: 1%;
+  border-style: solid;
+}
+
+nav a {
+  color: var(--Poseidon-5);
+}
+
+li a:hover {
+  /* Links that are being hovered */
+  background-color: #9aeba3;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+img {
+  border-color: #dafdba;
+  border: solid 1pt;
+  background-size: contain;
+  position: inherit;
+  max-width: 30em;
+  min-width: 10em;
+}
+
+section {
+  padding: 0.2em;
+}
+
+header {
+  padding: 0.25em;
+  margin-bottom: 0.8em;
+}
