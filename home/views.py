@@ -10,6 +10,7 @@ def index(request) -> HttpResponse:
         return Http404()
     return HttpResponse(template.render(request=request))
 
+
 def about(request) -> HttpResponse:
     try:
         template: Template = loader.get_template("home/about.html")

@@ -33,10 +33,11 @@
          </button>
       </nav>
    </header>
+   </div>
 
    <main>
-      <section>
-      <div>
+
+      <div class="container-fluid border-bottom">
          <h4 class="text-justify">
             This is the start of the Michigan Python website.
          </h4>
@@ -44,9 +45,50 @@
             Connect with us on meetup <a href="https://www.meetup.com/michigan-python/" target="_blank">https://www.meetup.com/michigan-python/</a>
          </h5>
       </div>
-   </section>
+
+      <div class="container-fluid mt-4">
+         <div class="row">
+            <div class="col">
+               <p>The Michigan Python users group. We meet the first Thursday each month. We are an open community whose mission is to connect people who love writing Python code. Everyone is welcome to join the group and contribute to our mission.
+                  <br><br>
+                  At a Michigan Python event, you can expect to discuss:
+                  <br><br>
+                  </p>
+
+                  <ul>
+                     <li>
+                     Python—Basic and advanced techniques, PEPs, new versions, implementations, etc.
+                     </li>
+                     <li>
+                     Web Development—Django, Flask, Pyramid, Requests, etc.
+                     </li>
+                     <li>
+                     Artificial Intelligence—machine learning, neural networks, TensorFlow, etc.
+                     </li>
+                     <li>
+                     IoT—Raspberry Pi, Arduino, maker culture, etc.
+                     </li>
+                     <li>
+                     plus anything else Python-related!
+                     </li>
+                  </ul>
+
+                  <p>
+                  Members of the Michigan Python community are open, considerate, and respectful.
+               </p>
+            </div>
+            <div class="col">
+               {% load static %}
+               <img
+                  class="img-fluid rounded shadow"
+                  src="{% static 'images/MichPython.jpeg' %}"
+                  alt="Michigan Python Logo"
+               >
+            </div>
+         </div>
+      </div>
+
    </main>
-   </div>
 
    <footer class='footer-container py-3 my-4 m-5'>
       <ul class='justify-content-center nav border-top my-4'>

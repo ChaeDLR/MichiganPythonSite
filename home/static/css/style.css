@@ -8,7 +8,7 @@
 }
 
 .main-top {
-  color: var(--Poseidon-5);
+  color: var(--Poseidon-2);
   margin-bottom: -3px;
   z-index: 1;
   position: relative;
@@ -41,10 +41,6 @@ img {
   position: inherit;
   max-width: 30em;
   min-width: 10em;
-}
-
-section {
-  padding: 0.2em;
 }
 
 header {
