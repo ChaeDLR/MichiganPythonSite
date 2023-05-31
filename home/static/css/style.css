@@ -7,6 +7,19 @@
   --Poseidon-5: rgba(191, 101, 93, 1);
 }
 
+.main-section {
+  background-color: var(--Poseidon-4);
+}
+
+/*gif text strip*/
+.giftxtstrip-top {
+  background-color: var(--Poseidon-3);
+}
+
+.giftxtstrip-bot {
+  background-color: var(--Poseidon-1);
+}
+
 .main-top {
   color: var(--Poseidon-2);
   margin-bottom: -3px;
