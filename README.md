@@ -53,9 +53,9 @@ Start the server using the manage.py file.
 python manage.py runserver 8080
 ```
 Launch your prefered browser and send an http request to the port specified in the previous command.
-
-> localhost:8080
-
+```
+localhost:8080
+```
 You should now see the projects front page.
 <br>
 ### Happy coding!
