@@ -34,6 +34,11 @@
   border-style: solid;
 }
 
+.icon {
+  max-width: 32px !important;
+  max-height: 32px;
+}
+
 nav a {
   color: var(--Poseidon-5);
 }
@@ -53,7 +58,6 @@ img {
   background-size: contain;
   position: inherit;
   max-width: 30em;
-  min-width: 10em;
 }
 
 header {

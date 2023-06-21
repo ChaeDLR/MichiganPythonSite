@@ -58,11 +58,19 @@
       </ul>
       <div class='text-right mr-5'>
       <h3>Contact</h3>
-         <div>
-         <a href='https://github.com/MichiPUG' target='_blank'>
-            {% load static %}
-            <img src="{% static 'images/github_logo.svg' %}" width='32' height='32' alt='GitHub'>
-         </a>
+         <div class='row justify-content-end mr-1'>
+               <a class='icon' href='https://github.com/MichiPUG' target='_blank'>
+                  {% load static %}
+                  <img src="{% static 'images/github_logo.svg' %}" width='32' height='32' alt='GitHub'>
+               </a>
+               <a class='icon' href='https://twitter.com/MichiganPython' target='_blank'>
+                  {% load static %}
+                  <img src="{% static 'images/twitter.svg' %}" width='32' height='32' alt='Twitter'>
+               </a>
+               <a class='icon' href='https://www.youtube.com/@MichiganPython' target='_blank'>
+                  {% load static %}
+                  <img src="{% static 'images/youtube.svg' %}" width='32' height='32' alt='YouTube'>
+               </a>
          </div>
       </di>
    </footer>
